@@ -227,7 +227,9 @@
             obj[key] = data.path;
             input.value = data.path;
             preview.src = data.path;
-            uploadStatus.textContent = "Terunggah.";
+            uploadStatus.textContent = data.deploying
+              ? "Terunggah — muncul ~30-60 detik lagi setelah redeploy."
+              : "Terunggah.";
             markDirty();
           })
           .catch(function (err) {
@@ -568,7 +570,12 @@
         if (data.error) throw new Error(data.error);
         DIRTY = false;
         document.getElementById("status-text").textContent = "Tersimpan";
-        toast("Semua perubahan tersimpan.", "ok");
+        toast(
+          data.deploying
+            ? "Tersimpan — situs publik update dalam ~30-60 detik (redeploy otomatis)."
+            : "Semua perubahan tersimpan.",
+          "ok"
+        );
       })
       .catch(function (err) {
         if (err.message === "unauthenticated") return;

@@ -1,0 +1,9 @@
+{
+  "name": "cp-solim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solim Paint Specialist — static site + git-backed admin CMS",
+  "engines": {
+    "node": ">=18"
+  }
+}
