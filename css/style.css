@@ -835,6 +835,8 @@ h1, h2, h3, h4 {
 .narrative .sticky-label { position: sticky; top: 7rem; align-self: start; }
 .narrative .body p + p { margin-top: 1.2rem; }
 .narrative .body { color: var(--ink-soft); }
+/* single column below 860px — sticky would make this heading overlap the body text as it scrolls past */
+@media (max-width: 860px) { .narrative .sticky-label { position: static; top: auto; } }
 
 .gallery-strip {
   display: grid;
