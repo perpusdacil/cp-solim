@@ -484,10 +484,12 @@ h1, h2, h3, h4 {
   background: linear-gradient(to top, rgba(12,11,8,0.8), transparent);
   color: var(--white);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
   gap: 1rem;
 }
+.slide-caption > div { min-width: 0; }
 .slide-caption h3 { font-size: clamp(1.4rem, 2.6vw, 2.2rem); color: var(--white); }
 .slide-caption .sector {
   font-size: 0.7rem;
@@ -944,7 +946,9 @@ h1, h2, h3, h4 {
 .capability { margin-bottom: 1.6rem; }
 .capability .row {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 0.4rem 1rem;
   font-size: 0.8rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
