@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Admin — Solim Paint Specialist</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .login-screen {
+      min-height: 100vh;
+      background: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .login-screen::before {
+      content: "";
+      position: absolute;
+      inset: 1.2rem;
+      border: 1px solid rgba(156, 122, 75, 0.35);
+      pointer-events: none;
+    }
+    .login-logo {
+      display: block;
+      text-align: center;
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      color: var(--paper);
+      margin-bottom: 2rem;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .login-logo small {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 0.62rem;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: var(--brass-soft);
+      margin-top: 0.4rem;
+    }
+    .login-card {
+      background: var(--paper);
+      width: 100%;
+      max-width: 400px;
+      padding: clamp(2rem, 4vw, 2.75rem);
+      position: relative;
+    }
+    .login-card .eyebrow { color: var(--brass); margin-bottom: 0.9rem; }
+    .login-card h1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 3vw, 1.8rem);
+      color: var(--ink);
+      margin: 0 0 0.6rem;
+    }
+    .login-card .lead {
+      margin: 0 0 1.75rem;
+      font-size: 0.92rem;
+      max-width: none;
+    }
+    .login-card form { display: grid; gap: 1.25rem; }
+    .login-card .btn {
+      justify-content: center;
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--paper);
+      cursor: pointer;
+      width: 100%;
+    }
+    .login-card .btn:hover { background: var(--brass); border-color: var(--brass); }
+    .login-card .btn:disabled { opacity: 0.6; cursor: wait; }
+    .login-error {
+      display: none;
+      font-size: 0.82rem;
+      color: #a8402a;
+      background: #fbeae5;
+      border: 1px solid #e3b6a8;
+      padding: 0.65rem 0.85rem;
+      margin-top: -0.4rem;
+    }
+    .login-error.show { display: block; }
+    .login-back {
+      display: block;
+      text-align: center;
+      margin-top: 1.6rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      color: var(--brass-soft);
+      text-decoration: none;
+    }
+    .login-back:hover { color: var(--paper); }
+  </style>
+</head>
+<body>
+
+  <div class="login-screen">
+    <div>
+      <a href="index.html" class="login-logo">Solim<small>Paint Specialist</small></a>
+      <div class="login-card">
+        <p class="eyebrow">Admin</p>
+        <h1>Masuk ke Panel Admin</h1>
+        <p class="lead">Masukkan password admin untuk mengelola konten situs.</p>
+        <form id="login-form" autocomplete="off">
+          <div class="field">
+            <label for="login-password">Password</label>
+            <input id="login-password" name="password" type="password" required autofocus />
+          </div>
+          <p class="login-error" id="login-error"></p>
+          <button class="btn" type="submit" id="login-submit">Masuk</button>
+        </form>
+      </div>
+      <a class="login-back" href="index.html">← Kembali ke situs</a>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

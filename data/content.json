@@ -1,0 +1,1597 @@
+{
+  "site": {
+    "logoName": "Solim",
+    "logoTagline": "Paint Specialist",
+    "ctaLabel": "Minta Penawaran"
+  },
+  "nav": {
+    "items": [
+      {
+        "label": "Beranda",
+        "href": "index.html"
+      },
+      {
+        "label": "Tentang Kami",
+        "href": "about.html"
+      },
+      {
+        "label": "Layanan",
+        "href": "services.html"
+      },
+      {
+        "label": "Proyek",
+        "href": "portfolio.html"
+      },
+      {
+        "label": "Sertifikasi",
+        "href": "awards.html"
+      },
+      {
+        "label": "Artikel",
+        "href": "insights.html"
+      },
+      {
+        "label": "Kontak",
+        "href": "contact.html"
+      }
+    ]
+  },
+  "footer": {
+    "addressHtml": "PT. Solim Indonesia<br />Jl. Alamat Workshop No. 00,<br />Jakarta — 00000",
+    "phone": "+62 21 0000 0000",
+    "phoneHref": "tel:+62210000000",
+    "whatsapp": "+62 812 0000 0000 (WhatsApp)",
+    "whatsappHref": "https://wa.me/628120000000",
+    "email": "info@solim-paint.co.id",
+    "emailHref": "mailto:info@solim-paint.co.id",
+    "newsletterText": "Tips warna, tren finishing, dan promo — sesekali saja, tidak mengganggu.",
+    "copyright": "Copyright © 2025 PT. Solim Indonesia. Seluruh hak cipta dilindungi.",
+    "navItems": [
+      {
+        "label": "Tentang Kami",
+        "href": "about.html"
+      },
+      {
+        "label": "Layanan",
+        "href": "services.html"
+      },
+      {
+        "label": "Proyek",
+        "href": "portfolio.html"
+      },
+      {
+        "label": "Sertifikasi & Garansi",
+        "href": "awards.html"
+      },
+      {
+        "label": "Artikel",
+        "href": "insights.html"
+      }
+    ],
+    "socials": {
+      "instagram": "#",
+      "facebook": "#",
+      "youtube": "#",
+      "tiktok": "#"
+    }
+  },
+  "pages": {
+    "home": {
+      "meta": {
+        "title": "Solim Paint Specialist — Spesialis Cat & Finishing Arsitektural",
+        "description": "Solim Paint Specialist — jasa pengecatan interior & eksterior, cat dekoratif & tekstur, epoxy lantai, dan waterproofing untuk residensial, kantor, hospitality, retail, dan industri."
+      },
+      "hero": {
+        "eyebrow": "Spesialis Cat & Finishing Arsitektural",
+        "headlineHtml": "Warna dan tekstur yang <em>menghidupkan</em> ruang",
+        "lead": "Pengecatan interior & eksterior, cat dekoratif & tekstur, epoxy lantai, dan waterproofing — dikerjakan tim aplikator berpengalaman untuk hunian, kantor, hospitality, retail, dan industri.",
+        "image": "https://picsum.photos/seed/solim-hero/1920/1080",
+        "imageAlt": "Hasil finishing dinding oleh Solim Paint Specialist",
+        "secondaryButtonLabel": "Lihat Proyek",
+        "secondaryButtonHref": "portfolio.html",
+        "metaChips": [
+          "Interior & Eksterior",
+          "Dekoratif & Tekstur",
+          "Epoxy Lantai",
+          "Waterproofing"
+        ]
+      },
+      "awardStrip": [
+        "Aplikator Bersertifikat",
+        "Garansi Pekerjaan",
+        "Survey & Konsultasi Warna Gratis",
+        "Material Ternama & Bergaransi",
+        "Tim K3 di Setiap Proyek",
+        "Rapi, Tepat Waktu, Terjadwal"
+      ],
+      "stats": [
+        {
+          "value": 500,
+          "label": "Proyek Selesai"
+        },
+        {
+          "value": 15,
+          "label": "Tahun Pengalaman"
+        },
+        {
+          "value": 60,
+          "label": "Tenaga Aplikator Terlatih"
+        },
+        {
+          "value": 20,
+          "label": "Kota Terlayani"
+        }
+      ],
+      "carousel": {
+        "eyebrow": "Proyek Unggulan",
+        "title": "Hasil kerja terbaik kami",
+        "linkLabel": "Semua proyek →",
+        "linkHref": "portfolio.html",
+        "slideIds": [
+          "showunit",
+          "office",
+          "hotel",
+          "epoxy"
+        ]
+      },
+      "projects": {
+        "eyebrow": "Proyek Terbaru",
+        "title": "Karya pilihan",
+        "linkLabel": "Jelajahi proyek →",
+        "linkHref": "portfolio.html",
+        "itemIds": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6"
+        ]
+      },
+      "services": {
+        "eyebrow": "Layanan Kami",
+        "title": "Layanan",
+        "linkLabel": "Semua layanan →",
+        "linkHref": "services.html",
+        "items": [
+          {
+            "roman": "I.",
+            "title": "Pengecatan Interior & Eksterior",
+            "desc": "Pengecatan baru maupun repaint dengan persiapan permukaan menyeluruh — hasil rata, tahan lama, dan rapi.",
+            "tags": [
+              "Rumah & Apartemen",
+              "Kantor & Ruang Komersial",
+              "Hotel & Restoran",
+              "Fasad & Area Luar"
+            ]
+          },
+          {
+            "roman": "II.",
+            "title": "Cat Dekoratif & Tekstur",
+            "desc": "Finishing artistik untuk aksen ruang — dari wash paint hingga tekstur khusus sesuai konsep desainer Anda.",
+            "tags": [
+              "Wash Paint & Lime Wash",
+              "Tekstur & Motif Khusus",
+              "Finishing Duco & Melamin",
+              "Konsultasi Warna"
+            ]
+          },
+          {
+            "roman": "III.",
+            "title": "Coating Khusus",
+            "desc": "Perlindungan teknis untuk lantai dan struktur bangunan — dikerjakan sesuai standar dan spesifikasi material.",
+            "tags": [
+              "Epoxy Lantai",
+              "Waterproofing",
+              "Coating Anti-Karat",
+              "Pengecatan Industri"
+            ]
+          }
+        ]
+      },
+      "clients": {
+        "eyebrow": "Dipercaya Oleh",
+        "title": "Berbagai sektor, satu standar kualitas",
+        "items": [
+          "Developer Perumahan",
+          "Hotel & Resort",
+          "Restoran & Kafe",
+          "Kantor & Korporat",
+          "Brand Retail",
+          "Kontraktor Umum",
+          "Konsultan Interior",
+          "Pabrik & Gudang",
+          "Sekolah & Kampus",
+          "Rumah Tinggal"
+        ]
+      },
+      "insights": {
+        "eyebrow": "Artikel Terbaru",
+        "title": "Tips & wawasan",
+        "linkLabel": "Semua artikel →",
+        "linkHref": "insights.html",
+        "items": [
+          {
+            "image": "https://picsum.photos/seed/solim-a1/1200/750",
+            "alt": "Memilih warna cat interior",
+            "date": "Juni 2025 — Panduan",
+            "title": "Cara Memilih Warna Cat Interior yang Tidak Cepat Bosan",
+            "excerpt": "Prinsip dasar memilih palet warna hunian — dari pencahayaan ruang hingga undertone cat.",
+            "href": "insights.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-a2/1200/750",
+            "alt": "Perbandingan jenis finishing dinding",
+            "date": "April 2025 — Edukasi",
+            "title": "Wash Paint, Tekstur, atau Cat Biasa? Kenali Bedanya",
+            "excerpt": "Kelebihan, kekurangan, dan kisaran biaya tiap jenis finishing dinding dekoratif.",
+            "href": "insights.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-a3/1200/750",
+            "alt": "Lantai epoxy untuk area industri",
+            "date": "Februari 2025 — Edukasi",
+            "title": "Kapan Lantai Anda Butuh Epoxy — dan Kapan Tidak",
+            "excerpt": "Panduan singkat memilih sistem epoxy sesuai beban, traffic, dan kondisi lantai eksisting.",
+            "href": "insights.html"
+          }
+        ]
+      },
+      "ctaBand": {
+        "eyebrow": "Mulai dari Survey Gratis",
+        "title": "Ruang Anda layak finishing terbaik",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "about": {
+      "meta": {
+        "title": "Tentang Kami — Solim Paint Specialist",
+        "description": "Solim Paint Specialist — tim aplikator berpengalaman untuk pengecatan interior & eksterior, cat dekoratif, epoxy lantai, dan waterproofing."
+      },
+      "hero": {
+        "eyebrow": "Tentang Kami",
+        "title": "Tim yang serius soal hasil akhir",
+        "image": "https://picsum.photos/seed/solim-team/1920/900",
+        "imageAlt": "Tim Solim bekerja di lokasi proyek"
+      },
+      "story": {
+        "eyebrow": "Solim Paint Specialist",
+        "title": "Spesialis finishing, bukan sekadar tukang cat",
+        "paragraphs": [
+          "Solim adalah perusahaan jasa pengecatan dan finishing arsitektural yang melayani proyek residensial, kantor, hospitality, retail, dan industri di berbagai kota di Indonesia.",
+          "Kami percaya hasil akhir yang baik dimulai jauh sebelum kuas menyentuh dinding: dari survey yang teliti, persiapan permukaan yang benar, pemilihan material yang tepat, hingga pengawasan kualitas di setiap lapis aplikasi.",
+          "Tim kami terdiri dari aplikator terlatih yang dipimpin supervisor berpengalaman — terbiasa bekerja berdampingan dengan kontraktor, desainer interior, dan pemilik properti dengan jadwal yang ketat."
+        ],
+        "image": "https://picsum.photos/seed/solim-founder/1000/1250",
+        "imageAlt": "Tim inti Solim Paint Specialist"
+      },
+      "philosophy": {
+        "eyebrow": "Filosofi Kami",
+        "quote": "Permukaan yang baik tidak terjadi kebetulan — ia dipersiapkan, dikerjakan berlapis, dan dijaga sampai serah terima."
+      },
+      "team": {
+        "eyebrow": "Tim Kami",
+        "title": "Terstruktur untuk kualitas yang konsisten",
+        "stats": [
+          {
+            "num": "60+",
+            "label": "Tenaga Aplikator Terlatih"
+          },
+          {
+            "num": "8",
+            "label": "Supervisor Lapangan"
+          },
+          {
+            "num": "3",
+            "label": "Tim Spesialis — Dekoratif, Epoxy, Waterproofing"
+          },
+          {
+            "num": "1",
+            "label": "Standar QC di Semua Proyek"
+          }
+        ]
+      },
+      "capability": {
+        "eyebrow": "Kapabilitas",
+        "title": "Satu tim, semua kebutuhan finishing",
+        "skills": [
+          {
+            "label": "Pengecatan Interior",
+            "percent": "100%"
+          },
+          {
+            "label": "Pengecatan Eksterior",
+            "percent": "100%"
+          },
+          {
+            "label": "Cat Dekoratif & Tekstur",
+            "percent": "100%"
+          },
+          {
+            "label": "Epoxy Lantai",
+            "percent": "100%"
+          },
+          {
+            "label": "Waterproofing",
+            "percent": "100%"
+          }
+        ]
+      },
+      "ctaBand": {
+        "eyebrow": "Kerja Sama dengan Kami",
+        "title": "Satu tim untuk seluruh kebutuhan finishing Anda",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "services": {
+      "meta": {
+        "title": "Layanan — Solim Paint Specialist",
+        "description": "Layanan Solim — pengecatan interior & eksterior, cat dekoratif & tekstur, epoxy lantai, waterproofing, dan coating khusus."
+      },
+      "hero": {
+        "eyebrow": "Layanan",
+        "title": "Dari survey pertama sampai serah terima",
+        "image": "https://picsum.photos/seed/solim-services/1920/900",
+        "imageAlt": "Proses aplikasi cat oleh tim Solim"
+      },
+      "core": {
+        "eyebrow": "Layanan Kami",
+        "title": "Tiga spesialisasi, satu standar",
+        "items": [
+          {
+            "roman": "I.",
+            "title": "Pengecatan Interior & Eksterior",
+            "desc": "Pengecatan baru maupun repaint dengan persiapan permukaan menyeluruh — skim coat, perbaikan retak, primer, hingga lapisan akhir.",
+            "tags": [
+              "Rumah & Apartemen",
+              "Kantor & Ruang Komersial",
+              "Hotel & Restoran",
+              "Fasad & Area Luar",
+              "Pengecatan Gedung Bertingkat"
+            ]
+          },
+          {
+            "roman": "II.",
+            "title": "Cat Dekoratif & Tekstur",
+            "desc": "Finishing artistik yang dikerjakan aplikator spesialis — mengikuti konsep desainer atau dikembangkan bersama melalui mock-up dan sampel.",
+            "tags": [
+              "Wash Paint & Lime Wash",
+              "Tekstur & Motif Khusus",
+              "Finishing Duco & Melamin",
+              "Cat Motif Kayu / Beton Ekspos",
+              "Konsultasi Warna & Mock-up"
+            ]
+          },
+          {
+            "roman": "III.",
+            "title": "Coating Khusus",
+            "desc": "Sistem pelapisan teknis untuk perlindungan jangka panjang — dipilih sesuai beban, traffic, dan kondisi permukaan.",
+            "tags": [
+              "Epoxy Lantai (Coating & Self-Leveling)",
+              "Waterproofing Atap & Dinding",
+              "Coating Anti-Karat Struktur Baja",
+              "Pengecatan Industri & Marka Lantai"
+            ]
+          }
+        ]
+      },
+      "process": {
+        "eyebrow": "Cara Kami Bekerja",
+        "title": "Prosesnya",
+        "lead": "Alur kerja yang jelas dan terjadwal dari penawaran sampai garansi — Anda tahu persis apa yang terjadi di tiap tahap.",
+        "steps": [
+          {
+            "title": "Survey & Pengukuran",
+            "desc": "Kunjungan gratis ke lokasi — cek kondisi permukaan, ukur luas area, dan dengarkan kebutuhan Anda."
+          },
+          {
+            "title": "Konsultasi Warna & Material",
+            "desc": "Rekomendasi jenis cat, finishing, dan palet warna — lengkap dengan sampel atau mock-up bila diperlukan."
+          },
+          {
+            "title": "Penawaran & Jadwal",
+            "desc": "Penawaran tertulis yang rinci per item pekerjaan, beserta jadwal pengerjaan yang disepakati bersama."
+          },
+          {
+            "title": "Persiapan Permukaan",
+            "desc": "Proteksi area, perbaikan retak dan lubang, skim coat, pengamplasan, dan primer — fondasi hasil yang tahan lama."
+          },
+          {
+            "title": "Aplikasi & Kontrol Kualitas",
+            "desc": "Aplikasi berlapis sesuai spesifikasi material, diperiksa supervisor di tiap tahap sebelum lanjut."
+          },
+          {
+            "title": "Serah Terima & Garansi",
+            "desc": "Pembersihan lokasi, walkthrough bersama Anda, dan garansi pekerjaan tertulis."
+          }
+        ]
+      },
+      "sectors": {
+        "eyebrow": "Sektor",
+        "title": "Di mana kami bekerja",
+        "items": [
+          {
+            "image": "https://picsum.photos/seed/solim-s1/1200/900",
+            "alt": "Sektor residensial",
+            "title": "Residensial",
+            "meta": "Rumah, apartemen & show unit",
+            "href": "portfolio.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-s2/1200/900",
+            "alt": "Sektor kantor",
+            "title": "Kantor",
+            "meta": "Kantor pusat & coworking",
+            "href": "portfolio.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-s3/1200/900",
+            "alt": "Sektor hospitality",
+            "title": "Hospitality",
+            "meta": "Hotel, resort & kafe",
+            "href": "portfolio.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-s4/1200/900",
+            "alt": "Sektor retail dan F&B",
+            "title": "Retail & F&B",
+            "meta": "Butik, restoran & tenant mall",
+            "href": "portfolio.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-s5/1200/900",
+            "alt": "Sektor industri",
+            "title": "Industri",
+            "meta": "Gudang, pabrik & workshop",
+            "href": "portfolio.html"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-s6/1200/900",
+            "alt": "Fasilitas umum",
+            "title": "Fasilitas Umum",
+            "meta": "Sekolah, kampus & gedung publik",
+            "href": "portfolio.html"
+          }
+        ]
+      },
+      "ctaBand": {
+        "eyebrow": "Mulai dari Survey Gratis",
+        "title": "Butuh yang mana? Kami bantu tentukan",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "portfolio": {
+      "meta": {
+        "title": "Proyek — Solim Paint Specialist",
+        "description": "Portofolio proyek pengecatan Solim — residensial, kantor, hospitality, retail & F&B, dan industri."
+      },
+      "hero": {
+        "eyebrow": "Proyek",
+        "title": "Hasil yang berbicara sendiri",
+        "image": "https://picsum.photos/seed/solim-portfolio/1920/900",
+        "imageAlt": "Kolase proyek Solim Paint Specialist"
+      },
+      "filters": [
+        {
+          "label": "Semua",
+          "value": "all"
+        },
+        {
+          "label": "Residensial",
+          "value": "residensial"
+        },
+        {
+          "label": "Kantor",
+          "value": "kantor"
+        },
+        {
+          "label": "Hospitality",
+          "value": "hospitality"
+        },
+        {
+          "label": "Retail & F&B",
+          "value": "retail-fnb"
+        },
+        {
+          "label": "Industri",
+          "value": "industri"
+        }
+      ],
+      "ctaBand": {
+        "eyebrow": "Mulai dari Survey Gratis",
+        "title": "Proyek Anda bisa jadi yang berikutnya",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "awards": {
+      "meta": {
+        "title": "Sertifikasi & Garansi — Solim Paint Specialist",
+        "description": "Sertifikasi aplikator, standar K3, kemitraan material, dan garansi pekerjaan Solim Paint Specialist."
+      },
+      "hero": {
+        "eyebrow": "Sertifikasi & Garansi",
+        "title": "Standar yang bisa Anda pegang",
+        "image": "https://picsum.photos/seed/solim-cert/1920/900",
+        "imageAlt": "Standar kerja Solim Paint Specialist"
+      },
+      "items": [
+        {
+          "title": "Aplikator Bersertifikat",
+          "desc": "Aplikator resmi & terlatih untuk merek cat ternama — [isi nama merek: mis. Dulux, Jotun, Nippon Paint, Propan]",
+          "category": "Sertifikasi"
+        },
+        {
+          "title": "Garansi Pekerjaan Tertulis",
+          "desc": "Garansi hasil pekerjaan hingga [X] tahun — mengelupas, menggelembung, atau retak kami perbaiki tanpa biaya",
+          "category": "Garansi"
+        },
+        {
+          "title": "Standar K3 Konstruksi",
+          "desc": "Tim dilengkapi APD lengkap dan prosedur kerja aman — termasuk pekerjaan ketinggian dengan sertifikasi [TKBT/TKPK]",
+          "category": "Keselamatan"
+        },
+        {
+          "title": "Material Asli & Bergaransi Pabrik",
+          "desc": "Seluruh material dibeli dari distributor resmi — nota dan spesifikasi teknis diserahkan ke klien",
+          "category": "Material"
+        },
+        {
+          "title": "Tenaga Kerja Terlatih & Terasuransi",
+          "desc": "Aplikator terdaftar BPJS Ketenagakerjaan — risiko kerja tidak dibebankan ke pemilik properti",
+          "category": "Legalitas"
+        },
+        {
+          "title": "Perusahaan Berbadan Hukum",
+          "desc": "PT. Solim Indonesia — [isi NIB / legalitas] — siap bekerja sama dengan kontraktor & korporasi (termasuk penagihan resmi)",
+          "category": "Legalitas"
+        }
+      ],
+      "noteHtml": "Butuh salinan dokumen legalitas atau sertifikat untuk keperluan vendor? Hubungi <a href=\"mailto:info@solim-paint.co.id\" style=\"border-bottom: 1px solid var(--brass);\">info@solim-paint.co.id</a>",
+      "ctaBand": {
+        "eyebrow": "Mulai dari Survey Gratis",
+        "title": "Kualitas terjamin, hitam di atas putih",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "insights": {
+      "meta": {
+        "title": "Artikel — Solim Paint Specialist",
+        "description": "Tips memilih warna, edukasi jenis finishing, dan cerita proyek dari Solim Paint Specialist."
+      },
+      "hero": {
+        "eyebrow": "Artikel",
+        "title": "Tips & wawasan seputar finishing",
+        "image": "https://picsum.photos/seed/solim-insights/1920/900",
+        "imageAlt": "Artikel dan tips dari Solim"
+      },
+      "articles": [
+        {
+          "image": "https://picsum.photos/seed/solim-a1/1200/750",
+          "alt": "Memilih warna cat interior",
+          "date": "Juni 2025 — Panduan",
+          "title": "Cara Memilih Warna Cat Interior yang Tidak Cepat Bosan",
+          "excerpt": "Prinsip dasar memilih palet warna hunian — dari pencahayaan ruang hingga undertone cat.",
+          "href": "#"
+        },
+        {
+          "image": "https://picsum.photos/seed/solim-a2/1200/750",
+          "alt": "Perbandingan jenis finishing dinding",
+          "date": "April 2025 — Edukasi",
+          "title": "Wash Paint, Tekstur, atau Cat Biasa? Kenali Bedanya",
+          "excerpt": "Kelebihan, kekurangan, dan kisaran biaya tiap jenis finishing dinding dekoratif.",
+          "href": "#"
+        },
+        {
+          "image": "https://picsum.photos/seed/solim-a3/1200/750",
+          "alt": "Lantai epoxy untuk area industri",
+          "date": "Februari 2025 — Edukasi",
+          "title": "Kapan Lantai Anda Butuh Epoxy — dan Kapan Tidak",
+          "excerpt": "Panduan singkat memilih sistem epoxy sesuai beban, traffic, dan kondisi lantai eksisting.",
+          "href": "#"
+        },
+        {
+          "image": "https://picsum.photos/seed/solim-a4/1200/750",
+          "alt": "Dinding rembes dan solusinya",
+          "date": "Desember 2024 — Panduan",
+          "title": "Dinding Rembes Terus? Ini Urutan Perbaikan yang Benar",
+          "excerpt": "Kenapa mengecat ulang saja tidak cukup — dan bagaimana waterproofing menyelesaikan akar masalahnya.",
+          "href": "#"
+        },
+        {
+          "image": "https://picsum.photos/seed/solim-a5/1200/750",
+          "alt": "Cerita proyek show unit BSD",
+          "date": "Oktober 2024 — Cerita Proyek",
+          "title": "Di Balik Finishing Show Unit Premium BSD City",
+          "excerpt": "Bagaimana lime wash dan duco satin menghadirkan kesan mewah tanpa material mahal berlebihan.",
+          "href": "#"
+        },
+        {
+          "image": "https://picsum.photos/seed/solim-a6/1200/750",
+          "alt": "Biaya pengecatan rumah",
+          "date": "Agustus 2024 — Panduan",
+          "title": "Menghitung Biaya Pengecatan Rumah: Apa Saja Komponennya",
+          "excerpt": "Dari luas dinding sampai jenis primer — supaya penawaran yang Anda terima bisa dibandingkan dengan adil.",
+          "href": "#"
+        }
+      ],
+      "ctaBand": {
+        "eyebrow": "Mulai dari Survey Gratis",
+        "title": "Masih ragu mulai dari mana?",
+        "lead": "Ceritakan kebutuhan Anda — tim kami akan menghubungi dalam satu hari kerja untuk jadwal survey dan penawaran."
+      }
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontak — Solim Paint Specialist",
+        "description": "Hubungi Solim Paint Specialist — minta penawaran, jadwalkan survey gratis, atau konsultasi warna dan finishing."
+      },
+      "hero": {
+        "eyebrow": "Kontak",
+        "title": "Ceritakan kebutuhan ruang Anda",
+        "image": "https://picsum.photos/seed/solim-contact/1920/900",
+        "imageAlt": "Workshop Solim Paint Specialist"
+      },
+      "info": {
+        "eyebrow": "Kantor & Workshop",
+        "title": "Solim Paint Specialist",
+        "addressHtml": "PT. Solim Indonesia<br />Jl. Alamat Workshop No. 00,<br />Jakarta — 00000",
+        "phone": "+62 21 0000 0000",
+        "phoneHref": "tel:+62210000000",
+        "whatsapp": "+62 812 0000 0000 (WhatsApp)",
+        "whatsappHref": "https://wa.me/628120000000",
+        "email": "info@solim-paint.co.id",
+        "emailHref": "mailto:info@solim-paint.co.id",
+        "hours": "Senin — Sabtu, 08.00 – 17.00 WIB",
+        "mapPlaceholderText": "Embed Peta — Lokasi Workshop"
+      }
+    }
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "sector": "residensial",
+      "title": "Rumah Tinggal Pondok Indah",
+      "meta": "Interior & Dekoratif — Jakarta Selatan · 2025",
+      "image": "https://picsum.photos/seed/solim-p1/1200/900",
+      "alt": "Rumah tinggal Pondok Indah",
+      "href": "project.html?id=p1",
+      "detail": {
+        "metaTitle": "Rumah Tinggal Pondok Indah — Jakarta Selatan | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan interior & dekoratif di Jakarta Selatan — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Interior & Dekoratif — Jakarta Selatan · 2025",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p1/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Rumah Tinggal Pondok Indah",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Interior & Dekoratif"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Jakarta Selatan"
+          },
+          {
+            "k": "Luas",
+            "v": "1400 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "10 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2025"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Finishing rapi untuk hunian yang terasa seperti rumah",
+        "narrativeParagraphs": [
+          "Pemilik rumah Tinggal Pondok Indah ingin hasil akhir yang bersih dan tahan lama tanpa mengorbankan kehangatan ruang tinggal. Tim kami memulai dari survey menyeluruh kondisi dinding sebelum menentukan sistem cat yang tepat.",
+          "Persiapan permukaan dikerjakan bertahap — perbaikan retak, skim coat, dan pengamplasan — sebelum lapisan akhir diaplikasikan aplikator berpengalaman agar warna rata di seluruh ruang.",
+          "Pekerjaan diselesaikan sesuai jadwal yang disepakati bersama pemilik rumah, dengan pembersihan area kerja setiap hari sehingga penghuni tetap nyaman selama proses berlangsung."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p1/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p1-1/1200/800",
+            "alt": "Area utama Rumah Tinggal Pondok Indah",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p1-2/1200/800",
+            "alt": "Detail finishing Rumah Tinggal Pondok Indah",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p1-3/1200/800",
+            "alt": "Proses pengerjaan Rumah Tinggal Pondok Indah",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Interior Premium",
+          "Skim Coat & Primer",
+          "Waterproofing Area Basah"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "showunit",
+      "sector": "residensial",
+      "title": "Show Unit Apartemen Premium",
+      "meta": "Dekoratif & Tekstur — BSD City · 2024",
+      "image": "https://picsum.photos/seed/solim-showunit/1200/900",
+      "alt": "Show unit apartemen BSD",
+      "href": "project.html?id=showunit",
+      "detail": {
+        "metaTitle": "Show Unit Apartemen Premium — BSD City | Solim Paint Specialist",
+        "metaDescription": "Finishing dekoratif dan tekstur show unit apartemen premium di BSD City — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Dekoratif & Tekstur — BSD City · 2024",
+        "heroImage": "https://picsum.photos/seed/solim-detail-hero/1920/1000",
+        "heroImageAlt": "Ruang utama show unit dengan finishing tekstur",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Dekoratif & Tekstur"
+          },
+          {
+            "k": "Lokasi",
+            "v": "BSD City, Tangerang"
+          },
+          {
+            "k": "Luas",
+            "v": "850 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "6 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2024"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Tekstur halus untuk kesan premium",
+        "narrativeParagraphs": [
+          "Developer meminta show unit yang terasa hangat dan mewah tanpa material mahal berlebihan. Jawaban kami: kombinasi lime wash pada dinding utama, tekstur halus pada area aksen, dan duco satin untuk seluruh kitchen set dan panel pintu.",
+          "Persiapan permukaan menjadi kunci — seluruh dinding diskim ulang, diamplas bertahap, dan diprimer sebelum aplikasi. Setiap lapis wash diaplikasikan manual oleh aplikator senior agar gradasi warna konsisten di semua ruang.",
+          "Pekerjaan dikerjakan paralel dengan jadwal fit-out interior, dikoordinasikan langsung dengan kontraktor dan desainer, dan selesai tepat sebelum peluncuran unit ke publik."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-beforeafter/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g1/1600/1000",
+            "alt": "Ruang keluarga dengan dinding lime wash",
+            "caption": "Ruang keluarga — lime wash dua lapis"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g2/1200/750",
+            "alt": "Detail tekstur dinding aksen",
+            "caption": "Dinding aksen — tekstur halus"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g3/1200/750",
+            "alt": "Kitchen set finishing duco satin",
+            "caption": "Kitchen set — duco satin"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g4/1200/750",
+            "alt": "Kamar tidur utama",
+            "caption": "Kamar tidur utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g5/1200/750",
+            "alt": "Proses aplikasi oleh tim Solim",
+            "caption": "Proses aplikasi — tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Lime Wash",
+          "Tekstur Halus",
+          "Duco Satin"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "office",
+      "sector": "kantor",
+      "title": "Kantor Pusat Perusahaan Teknologi",
+      "meta": "Interior — SCBD · 2024",
+      "image": "https://picsum.photos/seed/solim-office/1200/900",
+      "alt": "Kantor pusat SCBD",
+      "href": "project.html?id=office",
+      "detail": {
+        "metaTitle": "Kantor Pusat Perusahaan Teknologi — SCBD | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan interior di SCBD — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Interior — SCBD · 2024",
+        "heroImage": "https://picsum.photos/seed/solim-detail-office/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Kantor Pusat Perusahaan Teknologi",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Interior"
+          },
+          {
+            "k": "Lokasi",
+            "v": "SCBD"
+          },
+          {
+            "k": "Luas",
+            "v": "550 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "10 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2024"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Ruang kerja yang rapi tanpa mengganggu operasional",
+        "narrativeParagraphs": [
+          "Kantor Pusat Perusahaan Teknologi membutuhkan pengecatan yang cepat namun tetap presisi, dikerjakan berdampingan dengan jadwal operasional kantor yang padat.",
+          "Tim kami membagi area kerja bertahap di luar jam kantor untuk meminimalkan gangguan, dengan proteksi menyeluruh pada furnitur dan peralatan kerja.",
+          "Hasil akhir diperiksa bersama pihak manajemen gedung sebelum serah terima, memastikan setiap sudut ruang memenuhi standar kualitas Solim."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-office/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-office-1/1200/800",
+            "alt": "Area utama Kantor Pusat Perusahaan Teknologi",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-office-2/1200/800",
+            "alt": "Detail finishing Kantor Pusat Perusahaan Teknologi",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-office-3/1200/800",
+            "alt": "Proses pengerjaan Kantor Pusat Perusahaan Teknologi",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Interior Low-Odor",
+          "Skim Coat & Primer",
+          "Finishing Aksen Dekoratif"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "hotel",
+      "sector": "hospitality",
+      "title": "Hotel Butik Seminyak",
+      "meta": "Repaint Interior & Eksterior — Bali · 2024",
+      "image": "https://picsum.photos/seed/solim-hotel/1200/900",
+      "alt": "Hotel butik Seminyak",
+      "href": "project.html?id=hotel",
+      "detail": {
+        "metaTitle": "Hotel Butik Seminyak — Bali | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan repaint interior & eksterior di Bali — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Repaint Interior & Eksterior — Bali · 2024",
+        "heroImage": "https://picsum.photos/seed/solim-detail-hotel/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Hotel Butik Seminyak",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Repaint Interior & Eksterior"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Bali"
+          },
+          {
+            "k": "Luas",
+            "v": "1650 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "2 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2024"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Detail finishing yang menghidupkan pengalaman tamu",
+        "narrativeParagraphs": [
+          "Hotel Butik Seminyak memerlukan sentuhan estetika yang lebih personal — kombinasi warna dan tekstur yang selaras dengan konsep interior yang sudah ada.",
+          "Aplikator senior kami mengerjakan lapisan dekoratif secara manual agar gradasi warna konsisten di setiap sudut ruang tamu maupun area servis.",
+          "Pekerjaan dijadwalkan di luar jam operasional untuk menjaga kenyamanan tamu, dengan kontrol kualitas ketat di setiap tahap sebelum area dibuka kembali."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-hotel/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-hotel-1/1200/800",
+            "alt": "Area utama Hotel Butik Seminyak",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-hotel-2/1200/800",
+            "alt": "Detail finishing Hotel Butik Seminyak",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-hotel-3/1200/800",
+            "alt": "Proses pengerjaan Hotel Butik Seminyak",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Lime Wash & Tekstur Custom",
+          "Duco Satin",
+          "Coating Anti-Lembap"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p2",
+      "sector": "retail-fnb",
+      "title": "Restoran Fine Dining",
+      "meta": "Tekstur & Duco — Senopati · 2024",
+      "image": "https://picsum.photos/seed/solim-p2/1200/900",
+      "alt": "Restoran fine dining Senopati",
+      "href": "project.html?id=p2",
+      "detail": {
+        "metaTitle": "Restoran Fine Dining — Senopati | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan tekstur & duco di Senopati — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Tekstur & Duco — Senopati · 2024",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p2/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Restoran Fine Dining",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Tekstur & Duco"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Senopati"
+          },
+          {
+            "k": "Luas",
+            "v": "1450 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "2 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2024"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Finishing dekoratif yang memperkuat identitas brand",
+        "narrativeParagraphs": [
+          "Restoran Fine Dining ingin tampilan yang mencerminkan identitas brand secara konsisten, dari area depan hingga sudut foto pelanggan.",
+          "Tim kami mengembangkan sampel dan mock-up warna bersama desainer sebelum aplikasi penuh, memastikan hasil akhir sesuai konsep yang disepakati.",
+          "Pengerjaan dijadwalkan secepat mungkin agar operasional bisnis tidak lama terhenti, dengan hasil akhir yang tahan terhadap lalu lintas pengunjung harian."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p2/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p2-1/1200/800",
+            "alt": "Area utama Restoran Fine Dining",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p2-2/1200/800",
+            "alt": "Detail finishing Restoran Fine Dining",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p2-3/1200/800",
+            "alt": "Proses pengerjaan Restoran Fine Dining",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Dekoratif & Tekstur",
+          "Finishing Duco",
+          "Coating Tahan Gesekan"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p5",
+      "sector": "retail-fnb",
+      "title": "Butik Retail",
+      "meta": "Dekoratif & Custom Finish — Grand Indonesia · 2023",
+      "image": "https://picsum.photos/seed/solim-p5/1200/900",
+      "alt": "Butik retail Grand Indonesia",
+      "href": "project.html?id=p5",
+      "detail": {
+        "metaTitle": "Butik Retail — Grand Indonesia | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan dekoratif & custom finish di Grand Indonesia — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Dekoratif & Custom Finish — Grand Indonesia · 2023",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p5/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Butik Retail",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Dekoratif & Custom Finish"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Grand Indonesia"
+          },
+          {
+            "k": "Luas",
+            "v": "1600 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "5 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2023"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Finishing dekoratif yang memperkuat identitas brand",
+        "narrativeParagraphs": [
+          "Butik Retail ingin tampilan yang mencerminkan identitas brand secara konsisten, dari area depan hingga sudut foto pelanggan.",
+          "Tim kami mengembangkan sampel dan mock-up warna bersama desainer sebelum aplikasi penuh, memastikan hasil akhir sesuai konsep yang disepakati.",
+          "Pengerjaan dijadwalkan secepat mungkin agar operasional bisnis tidak lama terhenti, dengan hasil akhir yang tahan terhadap lalu lintas pengunjung harian."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p5/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p5-1/1200/800",
+            "alt": "Area utama Butik Retail",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p5-2/1200/800",
+            "alt": "Detail finishing Butik Retail",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p5-3/1200/800",
+            "alt": "Proses pengerjaan Butik Retail",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Dekoratif & Tekstur",
+          "Finishing Duco",
+          "Coating Tahan Gesekan"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p3",
+      "sector": "residensial",
+      "title": "Fasad Ruko Komersial",
+      "meta": "Eksterior & Waterproofing — PIK · 2023",
+      "image": "https://picsum.photos/seed/solim-p3/1200/900",
+      "alt": "Fasad ruko PIK",
+      "href": "project.html?id=p3",
+      "detail": {
+        "metaTitle": "Fasad Ruko Komersial — PIK | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan eksterior & waterproofing di PIK — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Eksterior & Waterproofing — PIK · 2023",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p3/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Fasad Ruko Komersial",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Eksterior & Waterproofing"
+          },
+          {
+            "k": "Lokasi",
+            "v": "PIK"
+          },
+          {
+            "k": "Luas",
+            "v": "1500 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "3 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2023"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Finishing rapi untuk hunian yang terasa seperti rumah",
+        "narrativeParagraphs": [
+          "Pemilik fasad Ruko Komersial ingin hasil akhir yang bersih dan tahan lama tanpa mengorbankan kehangatan ruang tinggal. Tim kami memulai dari survey menyeluruh kondisi dinding sebelum menentukan sistem cat yang tepat.",
+          "Persiapan permukaan dikerjakan bertahap — perbaikan retak, skim coat, dan pengamplasan — sebelum lapisan akhir diaplikasikan aplikator berpengalaman agar warna rata di seluruh ruang.",
+          "Pekerjaan diselesaikan sesuai jadwal yang disepakati bersama pemilik rumah, dengan pembersihan area kerja setiap hari sehingga penghuni tetap nyaman selama proses berlangsung."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p3/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p3-1/1200/800",
+            "alt": "Area utama Fasad Ruko Komersial",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p3-2/1200/800",
+            "alt": "Detail finishing Fasad Ruko Komersial",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p3-3/1200/800",
+            "alt": "Proses pengerjaan Fasad Ruko Komersial",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Interior Premium",
+          "Skim Coat & Primer",
+          "Waterproofing Area Basah"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p4",
+      "sector": "residensial",
+      "title": "Clubhouse Perumahan",
+      "meta": "Interior & Eksterior — Serpong · 2023",
+      "image": "https://picsum.photos/seed/solim-p4/1200/900",
+      "alt": "Clubhouse perumahan Serpong",
+      "href": "project.html?id=p4",
+      "detail": {
+        "metaTitle": "Clubhouse Perumahan — Serpong | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan interior & eksterior di Serpong — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Interior & Eksterior — Serpong · 2023",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p4/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Clubhouse Perumahan",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Interior & Eksterior"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Serpong"
+          },
+          {
+            "k": "Luas",
+            "v": "1550 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "4 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2023"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Finishing rapi untuk hunian yang terasa seperti rumah",
+        "narrativeParagraphs": [
+          "Pemilik clubhouse Perumahan ingin hasil akhir yang bersih dan tahan lama tanpa mengorbankan kehangatan ruang tinggal. Tim kami memulai dari survey menyeluruh kondisi dinding sebelum menentukan sistem cat yang tepat.",
+          "Persiapan permukaan dikerjakan bertahap — perbaikan retak, skim coat, dan pengamplasan — sebelum lapisan akhir diaplikasikan aplikator berpengalaman agar warna rata di seluruh ruang.",
+          "Pekerjaan diselesaikan sesuai jadwal yang disepakati bersama pemilik rumah, dengan pembersihan area kerja setiap hari sehingga penghuni tetap nyaman selama proses berlangsung."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p4/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p4-1/1200/800",
+            "alt": "Area utama Clubhouse Perumahan",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p4-2/1200/800",
+            "alt": "Detail finishing Clubhouse Perumahan",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p4-3/1200/800",
+            "alt": "Proses pengerjaan Clubhouse Perumahan",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Interior Premium",
+          "Skim Coat & Primer",
+          "Waterproofing Area Basah"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "epoxy",
+      "sector": "industri",
+      "title": "Gudang & Fasilitas Produksi",
+      "meta": "Epoxy Lantai — Cikarang · 2023",
+      "image": "https://picsum.photos/seed/solim-epoxy/1200/900",
+      "alt": "Gudang produksi Cikarang",
+      "href": "project.html?id=epoxy",
+      "detail": {
+        "metaTitle": "Gudang & Fasilitas Produksi — Cikarang | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan epoxy lantai di Cikarang — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Epoxy Lantai — Cikarang · 2023",
+        "heroImage": "https://picsum.photos/seed/solim-detail-epoxy/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Gudang & Fasilitas Produksi",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Epoxy Lantai"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Cikarang"
+          },
+          {
+            "k": "Luas",
+            "v": "1200 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "9 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2023"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Sistem pelapisan yang tahan beban dan sesuai spesifikasi",
+        "narrativeParagraphs": [
+          "Gudang & Fasilitas Produksi membutuhkan sistem pelapisan lantai dan struktur yang tahan terhadap beban berat serta lalu lintas kendaraan operasional harian.",
+          "Tim kami melakukan uji kondisi permukaan terlebih dahulu untuk menentukan sistem epoxy dan coating yang sesuai spesifikasi teknis dan standar keselamatan kerja.",
+          "Aplikasi dikerjakan bertahap di luar jam operasional produksi, dengan kontrol kualitas ketat sebelum area kembali digunakan sepenuhnya."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-epoxy/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-epoxy-1/1200/800",
+            "alt": "Area utama Gudang & Fasilitas Produksi",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-epoxy-2/1200/800",
+            "alt": "Detail finishing Gudang & Fasilitas Produksi",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-epoxy-3/1200/800",
+            "alt": "Proses pengerjaan Gudang & Fasilitas Produksi",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Epoxy Lantai Self-Leveling",
+          "Coating Anti-Karat",
+          "Waterproofing Struktur"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p6",
+      "sector": "industri",
+      "title": "Workshop Otomotif",
+      "meta": "Epoxy Lantai — Kelapa Gading · 2022",
+      "image": "https://picsum.photos/seed/solim-p6/1200/900",
+      "alt": "Workshop otomotif Kelapa Gading",
+      "href": "project.html?id=p6",
+      "detail": {
+        "metaTitle": "Workshop Otomotif — Kelapa Gading | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan epoxy lantai di Kelapa Gading — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Epoxy Lantai — Kelapa Gading · 2022",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p6/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Workshop Otomotif",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Epoxy Lantai"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Kelapa Gading"
+          },
+          {
+            "k": "Luas",
+            "v": "1650 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "6 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2022"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Sistem pelapisan yang tahan beban dan sesuai spesifikasi",
+        "narrativeParagraphs": [
+          "Workshop Otomotif membutuhkan sistem pelapisan lantai dan struktur yang tahan terhadap beban berat serta lalu lintas kendaraan operasional harian.",
+          "Tim kami melakukan uji kondisi permukaan terlebih dahulu untuk menentukan sistem epoxy dan coating yang sesuai spesifikasi teknis dan standar keselamatan kerja.",
+          "Aplikasi dikerjakan bertahap di luar jam operasional produksi, dengan kontrol kualitas ketat sebelum area kembali digunakan sepenuhnya."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p6/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p6-1/1200/800",
+            "alt": "Area utama Workshop Otomotif",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p6-2/1200/800",
+            "alt": "Detail finishing Workshop Otomotif",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p6-3/1200/800",
+            "alt": "Proses pengerjaan Workshop Otomotif",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Epoxy Lantai Self-Leveling",
+          "Coating Anti-Karat",
+          "Waterproofing Struktur"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p7",
+      "sector": "kantor",
+      "title": "Coworking Space",
+      "meta": "Interior & Aksen Dekoratif — Kuningan · 2022",
+      "image": "https://picsum.photos/seed/solim-p7/1200/900",
+      "alt": "Coworking space Kuningan",
+      "href": "project.html?id=p7",
+      "detail": {
+        "metaTitle": "Coworking Space — Kuningan | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan interior & aksen dekoratif di Kuningan — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Interior & Aksen Dekoratif — Kuningan · 2022",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p7/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Coworking Space",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Interior & Aksen Dekoratif"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Kuningan"
+          },
+          {
+            "k": "Luas",
+            "v": "1700 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "7 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2022"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Ruang kerja yang rapi tanpa mengganggu operasional",
+        "narrativeParagraphs": [
+          "Coworking Space membutuhkan pengecatan yang cepat namun tetap presisi, dikerjakan berdampingan dengan jadwal operasional kantor yang padat.",
+          "Tim kami membagi area kerja bertahap di luar jam kantor untuk meminimalkan gangguan, dengan proteksi menyeluruh pada furnitur dan peralatan kerja.",
+          "Hasil akhir diperiksa bersama pihak manajemen gedung sebelum serah terima, memastikan setiap sudut ruang memenuhi standar kualitas Solim."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p7/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p7-1/1200/800",
+            "alt": "Area utama Coworking Space",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p7-2/1200/800",
+            "alt": "Detail finishing Coworking Space",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p7-3/1200/800",
+            "alt": "Proses pengerjaan Coworking Space",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Cat Interior Low-Odor",
+          "Skim Coat & Primer",
+          "Finishing Aksen Dekoratif"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    },
+    {
+      "id": "p8",
+      "sector": "hospitality",
+      "title": "Kafe & Roastery",
+      "meta": "Lime Wash & Tekstur — Kemang · 2022",
+      "image": "https://picsum.photos/seed/solim-p8/1200/900",
+      "alt": "Kafe dan roastery Kemang",
+      "href": "project.html?id=p8",
+      "detail": {
+        "metaTitle": "Kafe & Roastery — Kemang | Solim Paint Specialist",
+        "metaDescription": "Pekerjaan lime wash & tekstur di Kemang — dikerjakan oleh Solim Paint Specialist.",
+        "heroEyebrow": "Lime Wash & Tekstur — Kemang · 2022",
+        "heroImage": "https://picsum.photos/seed/solim-detail-p8/1920/1000",
+        "heroImageAlt": "Hasil pekerjaan Kafe & Roastery",
+        "facts": [
+          {
+            "k": "Lingkup",
+            "v": "Lime Wash & Tekstur"
+          },
+          {
+            "k": "Lokasi",
+            "v": "Kemang"
+          },
+          {
+            "k": "Luas",
+            "v": "1750 m²"
+          },
+          {
+            "k": "Durasi",
+            "v": "8 Minggu"
+          },
+          {
+            "k": "Status",
+            "v": "Selesai · 2022"
+          }
+        ],
+        "narrativeEyebrow": "Tentang Proyek",
+        "narrativeTitle": "Detail finishing yang menghidupkan pengalaman tamu",
+        "narrativeParagraphs": [
+          "Kafe & Roastery memerlukan sentuhan estetika yang lebih personal — kombinasi warna dan tekstur yang selaras dengan konsep interior yang sudah ada.",
+          "Aplikator senior kami mengerjakan lapisan dekoratif secara manual agar gradasi warna konsisten di setiap sudut ruang tamu maupun area servis.",
+          "Pekerjaan dijadwalkan di luar jam operasional untuk menjaga kenyamanan tamu, dengan kontrol kualitas ketat di setiap tahap sebelum area dibuka kembali."
+        ],
+        "beforeAfter": {
+          "image": "https://picsum.photos/seed/solim-ba-p8/1600/700",
+          "badge": "B / A",
+          "title": "Lihat transformasinya",
+          "desc": "Bandingkan kondisi sebelum dan sesudah pengerjaan — geser untuk melihat perbedaan tiap ruang.",
+          "buttonLabel": "Lihat Before / After"
+        },
+        "gallery": [
+          {
+            "image": "https://picsum.photos/seed/solim-g-p8-1/1200/800",
+            "alt": "Area utama Kafe & Roastery",
+            "caption": "Area utama"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p8-2/1200/800",
+            "alt": "Detail finishing Kafe & Roastery",
+            "caption": "Detail finishing"
+          },
+          {
+            "image": "https://picsum.photos/seed/solim-g-p8-3/1200/800",
+            "alt": "Proses pengerjaan Kafe & Roastery",
+            "caption": "Proses pengerjaan tim Solim"
+          }
+        ],
+        "materialsEyebrow": "Rincian Pekerjaan",
+        "materialsTitle": "Material & teknik yang digunakan",
+        "materialsTags": [
+          "Lime Wash & Tekstur Custom",
+          "Duco Satin",
+          "Coating Anti-Lembap"
+        ],
+        "materialsLinkLabel": "Lihat semua layanan →",
+        "materialsLinkHref": "services.html"
+      }
+    }
+  ]
+}

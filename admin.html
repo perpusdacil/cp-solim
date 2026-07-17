@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Solim Paint Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f5f4f1;
+      --panel: #ffffff;
+      --ink: #16150f;
+      --ink-soft: #6e685c;
+      --line: #e9e5dc;
+      --brass: #9c7a4b;
+      --brass-dark: #7d5f38;
+      --danger: #b3432f;
+      --ok: #2f7a4d;
+      font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); }
+    a { color: inherit; }
+
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      display: flex; align-items: center; gap: 1rem;
+      padding: 0.85rem 1.25rem; background: var(--ink); color: #fff;
+    }
+    .topbar h1 { font-family: "Marcellus", serif; font-size: 1.1rem; font-weight: 400; margin: 0; letter-spacing: 0.02em; }
+    .topbar .spacer { flex: 1; }
+    .topbar .status { font-size: 0.8rem; opacity: 0.8; }
+    .btn {
+      appearance: none; border: 1px solid transparent; border-radius: 6px;
+      padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; cursor: pointer;
+      background: var(--brass); color: #fff;
+    }
+    .btn:hover { background: var(--brass-dark); }
+    .btn.ghost { background: transparent; border-color: rgba(255,255,255,0.35); color: #fff; }
+    .btn.ghost:hover { background: rgba(255,255,255,0.1); }
+    .btn.small { padding: 0.3rem 0.6rem; font-size: 0.75rem; }
+    .btn.danger { background: var(--danger); }
+    .btn.danger:hover { background: #8f3524; }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .layout { display: flex; min-height: calc(100vh - 56px); }
+    .sidebar {
+      width: 250px; flex-shrink: 0; background: var(--panel);
+      border-right: 1px solid var(--line); padding: 1rem 0.6rem;
+      position: sticky; top: 56px; align-self: flex-start;
+      height: calc(100vh - 56px); overflow-y: auto;
+    }
+    .sidebar button {
+      display: block; width: 100%; text-align: left; padding: 0.55rem 0.75rem;
+      margin-bottom: 0.15rem; border: none; background: none; border-radius: 6px;
+      font-size: 0.85rem; color: var(--ink-soft); cursor: pointer;
+    }
+    .sidebar button:hover { background: var(--bg); color: var(--ink); }
+    .sidebar button.active { background: var(--brass); color: #fff; font-weight: 600; }
+    .sidebar .group-label {
+      font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--ink-soft); margin: 1rem 0.75rem 0.35rem; opacity: 0.7;
+    }
+    .sidebar .group-label:first-child { margin-top: 0.25rem; }
+
+    main { flex: 1; padding: 1.5rem 2rem 5rem; max-width: 900px; }
+    main h2 { font-family: "Marcellus", serif; font-weight: 400; font-size: 1.4rem; margin: 0; }
+
+    .section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap;
+    }
+    .section-tools { display: flex; gap: 0.4rem; flex-shrink: 0; }
+    .section-tools .btn.ghost {
+      color: var(--ink-soft); border-color: var(--line);
+    }
+    .section-tools .btn.ghost:hover { background: var(--bg); }
+
+    .quick-jump {
+      position: sticky; top: 0; z-index: 10; background: var(--bg);
+      display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0.6rem 0;
+      margin-bottom: 1rem; border-bottom: 1px solid var(--line);
+    }
+    .jump-chip {
+      border: 1px solid var(--line); background: var(--panel); color: var(--ink-soft);
+      border-radius: 999px; padding: 0.3rem 0.85rem; font-size: 0.78rem; cursor: pointer;
+    }
+    .jump-chip:hover { border-color: var(--brass); color: var(--brass-dark); }
+
+    details.subsection {
+      border: 1px solid var(--line); border-radius: 10px; margin-bottom: 1rem;
+      background: var(--panel); overflow: hidden;
+    }
+    details.subsection > summary {
+      list-style: none; cursor: pointer; padding: 0.85rem 1.1rem; font-weight: 700;
+      font-size: 0.95rem; display: flex; align-items: center; gap: 0.5rem;
+      background: #faf8f5;
+    }
+    details.subsection > summary::-webkit-details-marker { display: none; }
+    details.subsection > summary::before {
+      content: "▸"; color: var(--brass); font-size: 0.75rem;
+      transition: transform 0.15s;
+    }
+    details.subsection[open] > summary::before { transform: rotate(90deg); }
+    details.subsection[open] > summary { border-bottom: 1px solid var(--line); }
+    .subsection-body { padding: 1.1rem; }
+
+    .field-block { margin-bottom: 1.1rem; }
+    .field-block > label {
+      display: block; font-size: 0.78rem; font-weight: 600; color: var(--ink-soft);
+      margin-bottom: 0.3rem; text-transform: uppercase; letter-spacing: 0.04em;
+    }
+    input[type=text], input[type=number], textarea {
+      width: 100%; padding: 0.55rem 0.7rem; border: 1px solid var(--line); border-radius: 6px;
+      font-size: 0.9rem; font-family: inherit; background: #fff; color: var(--ink);
+    }
+    textarea { resize: vertical; min-height: 4.5em; }
+    input:focus, textarea:focus { outline: 2px solid var(--brass); outline-offset: 1px; }
+
+    .obj-box {
+      border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.1rem;
+      margin-bottom: 1.1rem; background: var(--panel);
+    }
+    .obj-box > .obj-title {
+      font-size: 0.95rem; font-weight: 700; margin: 0 0 0.9rem; color: var(--ink);
+    }
+
+    .image-field { display: flex; gap: 0.75rem; align-items: flex-start; }
+    .image-field .col { flex: 1; }
+    .image-field img {
+      width: 96px; height: 72px; object-fit: cover; border-radius: 6px;
+      border: 1px solid var(--line); background: #eee; flex-shrink: 0;
+    }
+    .image-field .upload-row { display: flex; gap: 0.5rem; margin-top: 0.4rem; align-items: center; }
+    .image-field input[type=file] { font-size: 0.78rem; max-width: 180px; }
+
+    .array-search {
+      width: 100%; margin-bottom: 0.75rem; padding: 0.5rem 0.7rem;
+      border: 1px solid var(--line); border-radius: 6px; font-size: 0.85rem;
+    }
+    .array-list { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 0.75rem; }
+    details.array-item {
+      border: 1px solid var(--line); border-radius: 8px;
+      background: #fbfaf8; overflow: hidden;
+    }
+    .array-item-summary {
+      list-style: none; cursor: pointer; padding: 0.6rem 0.75rem;
+      display: flex; align-items: center; gap: 0.65rem;
+    }
+    .array-item-summary::-webkit-details-marker { display: none; }
+    .array-item-summary::before {
+      content: "▸"; color: var(--ink-soft); font-size: 0.7rem; flex-shrink: 0;
+      transition: transform 0.15s;
+    }
+    details.array-item[open] > .array-item-summary::before { transform: rotate(90deg); }
+    details.array-item[open] > .array-item-summary { border-bottom: 1px solid var(--line); }
+    .array-item-thumb {
+      width: 40px; height: 30px; object-fit: cover; border-radius: 4px;
+      border: 1px solid var(--line); flex-shrink: 0; background: #eee;
+    }
+    .array-item-summary-text {
+      flex: 1; display: flex; align-items: baseline; gap: 0.5rem; min-width: 0;
+    }
+    .array-item-summary-text .idx { font-size: 0.72rem; color: var(--ink-soft); font-weight: 700; flex-shrink: 0; }
+    .array-item-summary-text .preview {
+      font-size: 0.85rem; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .array-item-actions { display: flex; gap: 0.3rem; flex-shrink: 0; }
+    .array-item-actions button {
+      border: 1px solid var(--line); background: #fff; border-radius: 5px;
+      width: 26px; height: 26px; cursor: pointer; font-size: 0.75rem; line-height: 1;
+    }
+    .array-item-actions button.danger-btn { color: var(--danger); border-color: #e3b6a8; }
+    .array-item-actions button.danger-btn:hover { background: #fbeae5; }
+    .array-item-actions button:disabled { opacity: 0.35; cursor: not-allowed; }
+    .array-item-body { padding: 0.9rem; }
+    .array-string-row { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; align-items: center; }
+    .array-string-row input { flex: 1; }
+
+    .section-note {
+      font-size: 0.8rem; color: var(--ink-soft); background: #fbf3e6;
+      border: 1px solid #ecd9b6; border-radius: 8px; padding: 0.6rem 0.85rem; margin-bottom: 1.25rem;
+    }
+    .toast {
+      position: fixed; bottom: 1.25rem; right: 1.25rem; z-index: 50;
+      background: var(--ink); color: #fff; padding: 0.7rem 1.1rem; border-radius: 8px;
+      font-size: 0.85rem; box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+      opacity: 0; transform: translateY(8px); transition: opacity 0.2s, transform 0.2s;
+      pointer-events: none;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    .toast.error { background: var(--danger); }
+    .toast.ok { background: var(--ok); }
+
+    @media (max-width: 780px) {
+      .layout { flex-direction: column; }
+      .sidebar { width: 100%; height: auto; position: static; display: flex; flex-wrap: wrap; gap: 0.25rem; }
+      .sidebar .group-label { display: none; }
+      main { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>Solim — Admin Konten</h1>
+    <div class="spacer"></div>
+    <span class="status" id="status-text">Memuat…</span>
+    <a class="btn ghost small" href="index.html" target="_blank" rel="noopener">Lihat Situs</a>
+    <button class="btn" id="save-btn" disabled>Simpan Semua Perubahan</button>
+    <button class="btn ghost small" id="logout-btn" type="button">Keluar</button>
+  </div>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar"></nav>
+    <main id="main"></main>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

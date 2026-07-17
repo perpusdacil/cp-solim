@@ -1,0 +1,5 @@
+.admin-credentials.json
+.claude/
+.DS_Store
+node_modules/
+*.log
