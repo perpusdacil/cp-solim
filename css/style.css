@@ -256,6 +256,9 @@ h1, h2, h3, h4 {
   .main-nav {
     position: fixed;
     inset: 0;
+    height: 100vh;
+    height: 100dvh;
+    z-index: 105;
     background: var(--ink);
     flex-direction: column;
     justify-content: center;

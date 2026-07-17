@@ -15,18 +15,34 @@
   /* ----- Mobile nav ----- */
   var toggle = document.querySelector(".nav-toggle");
   var mainNav = document.querySelector(".main-nav");
+  var lockedScrollY = 0;
+  function lockBodyScroll() {
+    lockedScrollY = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = "-" + lockedScrollY + "px";
+    document.body.style.width = "100%";
+  }
+  function unlockBodyScroll() {
+    document.body.style.position = "";
+    document.body.style.top = "";
+    document.body.style.width = "";
+    window.scrollTo(0, lockedScrollY);
+  }
   if (toggle) {
     toggle.addEventListener("click", function () {
+      var willOpen = !document.body.classList.contains("nav-open");
       document.body.classList.toggle("nav-open");
-      toggle.setAttribute(
-        "aria-expanded",
-        document.body.classList.contains("nav-open") ? "true" : "false"
-      );
+      toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+      if (willOpen) lockBodyScroll();
+      else unlockBodyScroll();
     });
     /* delegated: nav links are re-rendered from content.json after load */
     if (mainNav) {
       mainNav.addEventListener("click", function (e) {
-        if (e.target.closest("a")) document.body.classList.remove("nav-open");
+        if (e.target.closest("a") && document.body.classList.contains("nav-open")) {
+          document.body.classList.remove("nav-open");
+          unlockBodyScroll();
+        }
       });
     }
   }
